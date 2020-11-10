@@ -1,4 +1,4 @@
-﻿#EXTM3U url-tvg="https://iptvx.one/EPG"
+#EXTM3U url-tvg="https://iptvx.one/EPG"
 #EXTINF:-1, tvg-id="2na2" tvg-name="2х2"  group-title="Развлекательные",2х2
 http://play.megafon.tv/out/u/v1-video-6348301.mpd?device_type=web&display_type=web-wp&manufacturer=other&os_type=other&scheme=https&scheme=https
 #EXTINF:-1, tvg-id="360-news" tvg-name="360° Новости"  group-title="Информационные",360° Новости
@@ -259,123 +259,6 @@ http://play.megafon.tv/out/u/v1-video-6415258.mpd?device_type=web&display_type=w
 http://play.megafon.tv/out/u/v1-video-7969097.mpd?device_type=web&display_type=web-wp&manufacturer=other&os_type=other&scheme=https&scheme=https
 #EXTINF:-1, tvg-id="euronews" tvg-name="Евроновости"  group-title="Информационные",Евроновости
 http://play.megafon.tv/out/u/v1-video-5308467.mpd?device_type=web&display_type=web-wp&manufacturer=other&os_type=other&scheme=https&scheme=https
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="no_epg_music" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/broadcastChannel1553687953730.png",#ё HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_M1/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="1hd",1HD Music Television
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_1HDMUSICTV/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="aiva",AIVA HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_AIVAHD/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="bridge-tv-classic",Bridge TV Classic
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_BRIDGETVCLASSIC/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="bridge-hd",Bridge TV Deluxe HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_BRIDGEHD/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="bridge-tv-dance",Bridge TV Hits
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_BRIDGETVDANCE/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="bridge-tv-ruxit",Bridge TV Русский хит
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSONGTV/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="bridge-tv-shlager" tvg-logo="http://immo.date/logo/bridge-tv.png",BRIDGE TV Шлягер
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_BRIDGETVSHLYAGER/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="bridge-tv",Bridge TV
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_BRIDGETV/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="clubbing-tv",Clubbing TV HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_CLUBBINGHD/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="mtv-dance",Club MTV
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MTVDANCE/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="iconcerts",iConcerts HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_ICONCERTSHD/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="mcm-top",MCM TOP
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MCMTOP/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="mezzo-live-hd",Mezzo Live HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_C05_MEZZOLIVEHD/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="mezzo",Mezzo
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MEZZO/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="vh1-classic",MTV 80s
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_VH1CLASSIC/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="mtv-rocks",MTV 90s
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MTVROCKS/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="mtv-russia",MTV HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MTVHD/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="mtv-hits",MTV Hits
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MTVHITS/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="mtv-live-hd",MTV Live HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_C03_MTVLIVEHD/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="mtv-russia",MTV
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MTV/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="musicbox" tvg-logo="http://fe-mos.svc.iptv.rt.ru/images/broadcastChannel1596525514393.png",Music Box Gold
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MUSICBOXTV/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="russian-musicbox",Music Box Russia HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAN_MUSICBOXHD/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="ru-tv",RU.TV HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_RUTVHD/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="song-tv",SONG TV HD Armenia
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_SONGTVARMHD/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="song-tv-ru",SONG TV HD Russia
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_SONGTVRUSHD/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="vh1-european",VH1 European
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_VH1EUROPEAN/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="vostok-tv",Восток ТВ
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_VOSTOKTV/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="europa-plus-tv",Европа Плюс ТВ
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_EUROPAPLUSTV/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="zhar-ptica" tvg-logo="http://fe-mos.svc.iptv.rt.ru/images/nclogo1534506436092.png",Жар Птица
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_JARPTIZA/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="zhara",Жара HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_JARAHD/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="la-minor",Ля-минор
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_AMOLL/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="matur-tv",Матур ТВ
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="muztv",Муз ТВ
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="muzyka-pervogo",Музыка Первого
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZYKAPERVOGO/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="o2tv",О2TV HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_O2TVHD/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="tnt-music",ТНТ Music
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_AONE/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="shanson-tv",Шансон-ТВ
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_SHANSONTV/variant.m3u8?version=2
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музыкальные" tvg-id="shant-music-hd",Шант Music HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_SHANTMUSICHD/variant.m3u8?version=2
 #EXTINF:-1, tvg-id="europa-plus-tv" tvg-name="Европа Плюс ТВ HD"  group-title="Музыкальные",Европа Плюс ТВ HD
 http://play.megafon.tv/out/u/v1-video-5308393.mpd?device_type=web&display_type=web-wp&manufacturer=other&os_type=other&scheme=https&scheme=https
 #EXTINF:-1, tvg-id="eda" tvg-name="Еда"  group-title="Кулинарные",Еда
@@ -528,9 +411,6 @@ http://play.megafon.tv/out/u/v1-video-6348404.mpd?device_type=web&display_type=w
 http://play.megafon.tv/out/u/v1-video-6348304.mpd?device_type=web&display_type=web-wp&manufacturer=other&os_type=other&scheme=https&scheme=https
 #EXTINF:-1, tvg-id="nostalgia" tvg-name="Ностальгия"  group-title="Развлекательные",Ностальгия
 http://play.megafon.tv/out/u/v1-video-6348307.mpd?device_type=web&display_type=web-wp&manufacturer=other&os_type=other&scheme=https&scheme=https
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Эфирные" tvg-id="ntv",НТВ HD
-#EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_HD/variant.m3u8?version=2
 #EXTINF:-1, tvg-id="ntv" tvg-name="НТВ"  group-title="Федеральные",НТВ
 http://play.megafon.tv/out/u/v1-video-6348403.mpd?device_type=web&display_type=web-wp&manufacturer=other&os_type=other&scheme=https&scheme=https
 #EXTINF:-1, tvg-id="ntv-pravo" tvg-name="НТВ Право"  group-title="Развлекательные",НТВ Право
@@ -685,7 +565,7 @@ http://play.megafon.tv/out/u/v1-video-8556854.mpd?device_type=web&display_type=w
 http://play.megafon.tv/out/u/v1-video-8563330.mpd?device_type=web&display_type=web-wp&manufacturer=other&os_type=other&scheme=https&scheme=https
 #EXTINF:-1, tvg-id="" group-title="Радио",Авторадио
 http://play.megafon.tv/out/u/v1-video-8563829.mpd?device_type=web&display_type=web-wp&manufacturer=other&os_type=other&scheme=https&scheme=https
-#EXTINF:-1, tvg-id="" group-title="Радио",Радио Романтика
+#EXTINF:-1, tvg-id="" group-title="Радио",Радио Романтика 
 http://play.megafon.tv/out/u/v1-video-8563914.mpd?device_type=web&display_type=web-wp&manufacturer=other&os_type=other&scheme=https&scheme=https
 #EXTINF:-1, tvg-id="" group-title="Радио",Comedy Radio
 http://play.megafon.tv/out/u/v1-video-8563973.mpd?device_type=web&display_type=web-wp&manufacturer=other&os_type=other&scheme=https&scheme=https
